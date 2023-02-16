@@ -2,6 +2,6 @@
 
 ola meu nome é **Eduardo Grando🕴🇦🇴 �** 
 
-👍meu eail de contato é e.grando@escola.pr.br.gov
+👍meu email de contato é e.grando@escola.pr.br.gov
 
 
