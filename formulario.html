@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>CSS Externo - formulários</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulario-13-04.css">
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+
+    </header>
+
+    <main><!--Meio-->
+        <section class="box">
+            <form>
+                <fieldset>
+                    <legend><strong>Formulário de Clientes</strong></legend>
+                        <br>
+
+                        <section class="inputBox">
+                            <input type="text" name="nome" id="'nome" class="inputUser" required>
+                            <label for="nome" class="labelinput">Nome completo</label>
+                        </section>
+                        <br><br>
+
+                        <section class="inputBox">
+                            <input type="text" name="email" id="email"
+                            class="inputUser" required >
+                            <label for="email" class="labelinput">Email</label>
+                        </section>
+                        <br><br>
+
+                        <section class="inputBox">
+                            <input type="tel" name="telefone" id="telefone"
+                            class="inputUser" required >
+                            <label for="telefone" class="labelinput">Telefone</label>
+                        </section>
+                        <br>
+
+                        <p>Sexo</p>
+                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <label for="feminino">Feminino</label>
+                        <br>
+
+                        <input type="radio" id="masculino" name="genero"
+                        value="masculino" required>
+                        <label for="masculino">Masculino</label>
+                        <br>
+
+                        <input type="radio" id="outro" name="genero" value="outro"
+                        required>Outro</label>
+                        <br><br>
+
+                        <label for="data_nascimento"><strong>Ano de nascimento</strong></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        <br><br><br>
+
+                        <section class="inputBox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelinput" >Cidade</label>
+                        </section>
+                        <br><br>
+
+                        <section class="inputBox">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado"  class="labelinput">Estado</label>
+                        </section>
+                        <br><br>
+
+                        <section class="inputBox">
+                            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                            <label for="endereco"  class="labelinput">Endereço</label>
+                        </section>
+                        <br><br>
+
+                        <input type="submit" value="Enviar formulário" id="enviar">
+                </fieldset>
+            </form>
+        </section>
+    
+    </main>
+
+    <footer><!--rodapé-->
+
+    </footer>
+</body>
+</html>
