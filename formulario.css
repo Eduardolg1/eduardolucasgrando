@@ -1,16 +1,94 @@
 body{
-
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-image: linear-gradient(to right, rgb(253, 36, 217), rgb(97, 0, 162));
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .box{
-    color:white;
+    color: rgb(255, 200, 200);
     position: absolute;
-    top:55%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0,0,0,0.6);
-    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
     border-radius: 15px;
     width: 30%;
+}
+
+fieldset{
+    border: 3px solid rgb(129, 87, 197);
+}
+
+legend{
+    border: 4px solid rgb(78, 75, 255);
+    padding: 5%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+.inputBox{
+    position:relative
+}
+
+.inputUser{
+    background: none;
+    border: none;/*tirar a borda*/
+    border-bottom: 1px solid rgb(179, 149, 149);
+    outline: none;/*tirar a linha de fora do imput*/
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 100%;/*comprimento da linha*/
+    letter-spacing: 2px;/*espaço entre cara caracter do imput*/
+}
+
+.labelinput{/* animação das labels - nessa parte, as labels irão
+    se encaixar dentro dos inputs*/
+position: absolute; /* vai ocupar apenas o elemento dela mesma */
+top: 0px;
+left: 0px;
+pointer-events: none;/* qualquer lugar que eu clicar dentro
+                do input, ele vai executar a ação */
+transition: 5px;/* transição - para criaçao de efeitos
+            de animação personalizado*/
+}
+
+/*Quando clicar no input eu quero que a label vai para cima
+do input - por isso a ação é no input*/
+
+.inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
+.inputUser:valid ~ .labelinput{ /*qdo o input tiver válido, eu quero
+                        que ele execute essa ação para a
+                        label - a informação irá permanecer
+                        no input, senão irá ficar por cima*/
+top: -20px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+}
+
+#data_nascimento{
+    border:none;
+    padding: 8px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #4362ff, rgb(90, 34, 112));
+    color:white;
+    
+}
+
+#enviar{
+    background-image: linear-gradient(to right, rgb(136, 0, 255), rgb(74, 37, 37));
+    width: 100%;
+    border: none;/*tirar a borda do botão enviar*/
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    cursor: pointer;/*Qdo passar o mouse por cima do botão enviar, muda o cursor*/
+    border-radius: 10px;
+}
+
+#enviar:hover{
+    background-image: linear-gradient(to right, rgb(0, 92, 192), rgb(90, 20, 195));
+    /*Qnd passar o mouse por cima do botão enviar, irá aplicar esse azul mais escuro*/
 }
