@@ -80,7 +80,10 @@ button{
     color: rgb(255, 64, 226);
     font-size: 30px;
     margin-right: 10px;
-    
-    
 }
 
+/*hover===========================================*/
+
+#Login:hover, #Home:hover, #Loja:hover{
+    opacity: 0.2;
+}
