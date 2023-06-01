@@ -74,3 +74,13 @@ button{
     border-radius: 10px;
 }
 
+.navBar,#Login, #Home, #Loja{
+    text-align: right;
+    text-decoration: underline rgb(88, 70, 70);
+    color: rgb(255, 64, 226);
+    font-size: 30px;
+    margin-right: 10px;
+    
+    
+}
+
