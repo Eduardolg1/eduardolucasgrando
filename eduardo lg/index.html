@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php+form</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+   <h1>atividade avaliativa 01</h1>
+    <div class="pcentral">
+        <form action="php/abs.php" method="get">
+            <fieldset>
+                <legend><b>funcao abs</b></legend>
+                <p> Retorna o valor absoluto de um número. Esse valor é o número sem o seu sinal.</p>
+                <label>informe o valor para retornar o seu numero real.</label> <br>
+                <input type="number" name="abs" id="idadejs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <div class="pcentral">
+        <form action="php/hip.php" method="get">
+            <fieldset>
+                <legend><b>funcao hipotenusa</b></legend>
+                <p> O teorema de Pitágoras diz que o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.
+                    a2 = b2 + c2 onde: a é hipotenusa, b cateto1 e c cateto2</p>
+                <label>informe cateto1 </label> <br>
+                <input type="number" name="cat1" id="idadejs">
+                <br><br>
+                <label >informe cateto 2 </label> <br>
+                <input type="number" name="cat2" id="idadejs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <div class="pcentral">
+        <form action="php/intdiv.php" method="get">
+            <fieldset>
+                <legend><b>funcao intdiv</b></legend>
+                <p>(Divisao inteira) Retorna o resultado da divisão inteira de dois números.</p>
+                <label>informe o dividendo </label> <br>
+                <input type="number" name="num" id="idadejs">
+                <br><br>
+                <label >informe o divisor </label> <br>
+                <input type="number" name="num1" id="idadejs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <div class="pcentral">
+        <form action="php/min.php" method="get">
+            <fieldset>
+                <legend><b>funcao min</b></legend>
+                <p></p>
+                <label>informe o primeiro numero </label> <br>
+                <input type="number" name="n1" id="idadejs">
+                <br><br>
+                <label >informe o segundo numero </label> <br>
+                <input type="number" name="n2" id="idadejs">
+                <br><br>
+                
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <div class="pcentral">
+        <form action="php/max.php" method="get">
+            <fieldset>
+                <legend><b>funcao max</b></legend>
+                <p></p>
+                <label>informe o primeiro numero </label> <br>
+                <input type="number" name="n3" id="idadejs">
+                <br><br>
+                <label >informe o segundo numero </label> <br>
+                <input type="number" name="n4" id="idadejs">
+                <br><br>
+                
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
